@@ -1,0 +1,17 @@
+package ditto
+version = 0.0.1
+authors = "Ryxai"
+license = "MIT"
+brief = "A port of the Isomorphism module from Idris to Idris2. Intended to be 
+used temporarily until it is readded to Idris2. This package will be deprecated
+at that point"
+readme = "https://github.com/Ryxai/ditto/README.md"
+homepage = "https://github.com/Ryxai/ditto"
+sourceloc = "https://github.com/Ryxai/ditto"
+bugtracker = "https://github.com/Ryxai/ditto/issues"
+
+depends = tester
+modules = Isomorphism.idr
+main = Isomorphism.idr
+sourcedir = "src"
+
