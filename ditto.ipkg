@@ -11,7 +11,10 @@ sourceloc = "https://github.com/Ryxai/ditto"
 bugtracker = "https://github.com/Ryxai/ditto/issues"
 
 depends = tester
-modules = Isomorphism.idr
-main = Isomorphism.idr
+modules = Isomorphism,
+          Isomorphism.Primitives,
+          Isomorphism.Extra,
+          Isomorphism.Fin,
+          Isomorphism.Vect
 sourcedir = "src"
 
